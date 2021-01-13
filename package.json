@@ -1,0 +1,14 @@
+{
+  "name": "count",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node test.js",
+    "build-version-04": "parcel src/version-04.js",
+    "build-version-05": "parcel src/version-05.js",
+    "build-version-05-umd": "parcel --global charChount src/version-05.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
